@@ -18,6 +18,14 @@ root@xx-node:/opt/scripts# cd xx-monitor/
 root@xx-node:/opt/scripts/xx-monitor#
 ```
 
+# Update Pushover Secrets
+
+Pushover is initialized on line 53 - input your Client and App secrets here.
+
+```py
+po = pushover.Client("<CLIENT API TOKEN>", api_token="<APP API TOKEN>")
+```
+
 # Run from Command Line
 
 ```bash

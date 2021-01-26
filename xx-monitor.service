@@ -1,0 +1,12 @@
+[Unit]
+Description=Elixxir Monitor Service
+After=multi-user.target
+Requires=xxnetwork-node.service
+
+[Service]
+Type=simple
+ExecStart=/opt/scripts/xx-monitor/xx-monitor.py
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

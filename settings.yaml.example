@@ -1,0 +1,17 @@
+# This is an example file. Copy this to `settings.yaml` and fill with your data, documentation in < >
+
+# Time in seconds to wait for round participation until sending alert
+# Default 5 minutes
+timeout: 300
+
+# The monitor will send alerts to each enabled service
+
+# Pushover Example 
+#services:
+#  pushover:
+#    enabled: True
+#    application_token: <your application's API token>
+#    user_key: <the user/group key of your user, viewable when logged into your Pushover dashboard, i.e., USER_KEY>
+#    priority: 0 <send as -2 to generate no notification/alert, -1 to always send as a quiet notification, 1 to display as high-priority and bypass the user's quiet hours, or 2 to also require confirmation from the user; 0 is default>
+#    retry: 10800 <required for alarm priority (2); how often to retry>
+#    expire: 10800 <required for alarm priority (2); when to stop retrying>

@@ -5,7 +5,7 @@ Requires=xxnetwork-node.service
 
 [Service]
 Type=simple
-ExecStart=/opt/scripts/xx-monitor/xx-monitor.py
+ExecStart=/opt/scripts/xxmonitor/xxmonitor.py -c /opt/scripts/xxmonitor/settings.yaml
 Restart=on-failure
 
 [Install]

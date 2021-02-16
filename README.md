@@ -1,6 +1,8 @@
 # Prepare
 
 ```bash
+root@xx-node:~# pip3 install python-pushover
+...
 root@xx-node:~# mkdir -p /opt/scripts
 root@xx-node:~# cd /opt/scripts
 root@xx-node:/opt/scripts# apt install git

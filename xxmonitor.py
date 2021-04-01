@@ -86,7 +86,7 @@ if __name__=='__main__':
     # Spawn a process to tail the log and grep for the search string
     _logfile = "/opt/xxnetwork/node-logs/node.log"
     _search_string = '"took\|Updating"'
-    proc = subprocess.Popen('tail -F {} | grep --line-buffered {}'.format(_logfile, _search_string), 
+    proc = subprocess.Popen('tail -F {} | grep -a --line-buffered {}'.format(_logfile, _search_string), 
             shell=True, 
             stdout=subprocess.PIPE,
             stderr=subprocess.STDOUT)

@@ -10,7 +10,7 @@ timeout: 300
 #services:
 #  pushover:
 #    enabled: True
-#    application_token: <your application's API token>
+#    api_token: <your application's API token>
 #    user_key: <the user/group key of your user, viewable when logged into your Pushover dashboard, i.e., USER_KEY>
 #    priority: 0 <send as -2 to generate no notification/alert, -1 to always send as a quiet notification, 1 to display as high-priority and bypass the user's quiet hours, or 2 to also require confirmation from the user; 0 is default>
 #    retry: 10800 <required for alarm priority (2); how often to retry>

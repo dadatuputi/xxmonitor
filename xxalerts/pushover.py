@@ -6,7 +6,7 @@ import time
 
 class AlertPushover(XxAlert):
     def __init__(self, **kwargs):
-        self.application_token = kwargs['application_token']
+        self.application_token = kwargs['api_token']
         self.user_key = kwargs['user_key']
         self.priority = kwargs.get('priority', 0)
         self.retry = kwargs.get('retry', 3600)

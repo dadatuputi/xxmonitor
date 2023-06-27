@@ -1,3 +1,8 @@
+# Archived
+
+This has been archived in favor of the [`xx monitor bot`](https://github.com/dadatuputi/xx_monitor_bot) Discord bot. 
+_____
+
 # Prepare
 
 ```bash
